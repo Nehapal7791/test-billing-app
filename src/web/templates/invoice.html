@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Invoice Detail</title></head>
+<body>
+  <h1>Invoice</h1>
+  <div id="invoice-summary">{{ summary }}</div>
+  <table id="line-items">
+    <thead><tr><th>Item</th><th>Qty</th><th>Tax</th><th>Total</th></tr></thead>
+    <tbody><!-- rendered from generate_invoice() --></tbody>
+  </table>
+</body>
+</html>
